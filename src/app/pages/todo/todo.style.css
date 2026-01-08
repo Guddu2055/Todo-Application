@@ -1,0 +1,114 @@
+
+
+ /* Container Layout */
+.table-container {
+    position: relative;
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/* Header and Button alignment */
+.header-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #f2f2f2; /* Kept neutral */
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Table Styling */
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.task-table thead tr {
+    background-color: #f2f2f2; /* Your original color */
+}
+
+.task-table th, 
+.task-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for rows */
+.task-table tbody tr:hover {
+    background-color: #fafafa;
+}
+
+
+/* Container styling */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Side-by-side layout */
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Label styling - fixed width keeps inputs aligned */
+.form-group label {
+    width: 150px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+/* Expanded Inputs */
+.form-group input, 
+.form-group textarea {
+    flex: 1; /* This makes the input expand */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Textarea specific expansion */
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Button placement */
+.button-row {
+    margin-left: 150px; /* Matches label width to align button with inputs */
+}
+
+.btn-submit {
+    background-color: #800080; /* Purple color from your image */
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #660066;
+}
